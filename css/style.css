@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Gilroy Extra Bold";
+    src: url("../fonts/gilroyextrabold-webfont.woff2") format("woff2"),
+         url("../fonts/gilroyextrabold-webfont.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("../fonts/gilroylight-webfont.woff2") format("woff2"),
+         url("../fonts/gilroylight-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Gilroy Extra Bold", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+a {
+    font: inherit;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+a:active {
+    opacity: 0.3;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.site-navigation,
+.catalog-menu > ul,
+.user-navigation,
+.services-list,
+.delivery-list,
+.brands-list,
+.site-navigation-footer,
+.user-navigation-footer,
+.social-button-list {
+    list-style: none;
+}
+
+.site-navigation > li,
+.user-navigation > li,
+.brands-list > li,
+.site-navigation-footer > li,
+.user-navigation-footer > li,
+.social-button-list > li {
+    display: inline;
+}
+
+
+
+/* РАзобраться с картинками */
+
+.brand-dji:hover{
+    opacity: 0.7;
+    
+    background: url("../img/logo-dji-color.jpg");
+}
+.brand-spgadgets:hover{
+    src: url("../img/logo-spgadgets-color.jpg");
+}
+.brand-gopro:hover{
+    src: url("../img/logo-gopro-color.jpg");
+}
+.brand-vive:hover{
+    src: url("../img/logo-vive-color.jpg");
+}
+
+
+.description-icons > th {
+    width: 160px;
+    height: 160px;
+    background-color: #f7e296;
+}
+.description-icons > th:hover,
+.description-icons > th:active {
+    background-color: #f0c52e;
+}
+.description-icons > th > a:hover{
+    opacity: 1;
+}
+.description-icons > th > a:active{
+    opacity: 0.3;
+}
+
+.slider-link {
+    background-color: #f7f3aa;
+}
+
+.slider-link:hover {
+    opacity: 1;
+    background-color: #f0c52e;
+}
+
+.slider-link:active {
+    opacity: 0.3;
+    background-color: #f0c52e;
+}
+
+.main-header {
+    background-color: #f7e296;
+}
+.main-footer {
+    background-color: #464646;
+}
+.services {
+    background-color: #e5e5e5;
+}
