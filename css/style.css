@@ -69,9 +69,7 @@ a:active {
 }
 
 .user-navigation > li,
-.brands-list > li,
-.site-navigation-footer > li,
-.user-navigation-footer > li, {
+.brands-list > li, {
     display: inline;
 }
 
@@ -134,9 +132,6 @@ a:active {
 .main-header {
     background-color: #f7e296;
 }
-.main-footer {
-    background-color: #464646;
-}
 .services {
     background-color: #e5e5e5;
 }
@@ -151,11 +146,39 @@ a:active {
     list-style: none;
 }
 
+
+
+/* ФУТТЕР */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+
+.main-footer {
+    background-color: #464646;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.site-navigation-footer li {
+    display: inline-block;
+}
+
+.footer-login {
+    text-align: right; 
+}
+
+.user-navigation-footer li {
+    display: inline-block;
+}
+
 /* СОЦИАЛЬНЫЕ СЕТИ */
 /* ------------------------------------------------------------ */
-.social-button-list {
-    text-align: center
-}
 
 .social-button {
     display: inline-block;
@@ -164,7 +187,7 @@ a:active {
     margin-right: 23px;
     font-size: 0px;
     opacity: 0.3;
-
+    
     background-color: transparent;
 }
 
@@ -172,13 +195,23 @@ a:active {
     background-image: url("../img/icon-facebook.svg");
     background-repeat: no-repeat;
 }
+
 .social-instagram {
     background-image: url("../img/icon-instagram.svg");
     background-repeat: no-repeat;
 }
+
 .social-twitter {
     background-image: url("../img/icon-twitter.svg");
     background-repeat: no-repeat;
 }
 
 /* ------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+
+
+/*  */
