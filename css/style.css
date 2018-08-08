@@ -1,3 +1,5 @@
+/* ШРИФТЫ */
+/* ------------------------------------------------------------ */
 @font-face {
     font-family: "Gilroy Extra Bold";
     src: url("../fonts/gilroyextrabold-webfont.woff2") format("woff2"),
@@ -14,6 +16,10 @@
     font-style: normal;
 }
 
+/* ------------------------------------------------------------ */
+
+/* ОБЩИЕ СЕЛЕКТОРЫ */
+/* ------------------------------------------------------------ */
 body {
     margin: 0;
     padding: 0;
@@ -47,6 +53,9 @@ a:active {
     margin: -1px;
 }
 
+/* ------------------------------------------------------------ */
+
+
 .site-navigation,
 .catalog-menu > ul,
 .user-navigation,
@@ -59,18 +68,22 @@ a:active {
     list-style: none;
 }
 
-.site-navigation > li,
 .user-navigation > li,
 .brands-list > li,
 .site-navigation-footer > li,
-.user-navigation-footer > li,
-.social-button-list > li {
+.user-navigation-footer > li, {
     display: inline;
 }
 
+.site-navigation > li {
+    position: relative;
+    display: inline-block;
+}
 
 
-/* РАзобраться с картинками */
+/* Разобраться с картинками */
+/* БРЕНДЫ */
+/* ------------------------------------------------------------ */
 
 .brand-dji:hover{
     opacity: 0.7;
@@ -127,3 +140,45 @@ a:active {
 .services {
     background-color: #e5e5e5;
 }
+
+.catalog-menu {
+    display: none;
+    position: absolute;
+}
+
+.site-navigation > li:hover .catalog-menu {
+    display: inline-block;
+    list-style: none;
+}
+
+/* СОЦИАЛЬНЫЕ СЕТИ */
+/* ------------------------------------------------------------ */
+.social-button-list {
+    text-align: center
+}
+
+.social-button {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 23px;
+    font-size: 0px;
+    opacity: 0.3;
+
+    background-color: transparent;
+}
+
+.social-facebook {
+    background-image: url("../img/icon-facebook.svg");
+    background-repeat: no-repeat;
+}
+.social-instagram {
+    background-image: url("../img/icon-instagram.svg");
+    background-repeat: no-repeat;
+}
+.social-twitter {
+    background-image: url("../img/icon-twitter.svg");
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------------------------------------ */
