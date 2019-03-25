@@ -1,0 +1,70 @@
+{
+    "window.openFilesInNewWindow": "off",
+    "[plaintext]": {},
+    "editor.matchBrackets": false,
+    "subtleBrackets.bracketPairs": [
+        "{}",
+        "[]",
+        "()",
+        "<>"
+    ],
+    "subtleBrackets.styles": {
+        "global": {
+            "color": "red",
+            "borderWidth": "2px",
+            "borderStyle": "none none solid none"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "keywords": "#e60ceeda",
+        "numbers": "#e98930de",
+        "functions": "#fafd4bdc",
+        "variables": "#79f760d2",
+        "comments": "#0f6e05f5",
+        "strings": "#da3f3fc4",
+        "types": "#1ce9c7e8",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#738cfcd3",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#8d14d3d0",
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },  
+    /*      "numbers": "#ff7b00",
+         "functions": "#fbff00",
+         "variables": "#2bff00",
+         "comments": "#0e7902",
+         "strings": "#ff0000ab"  */
+    "window.zoomLevel": 1,
+    // Enable/disable built-in PHP validation.
+    "php.validate.enable": true,
+    // Points to the PHP executable.
+    "php.validate.executablePath": "C:/PHP/php.exe",
+    // Whether the linter is run on save or on type.
+    "php.validate.run": "onSave",
+    // The path to a PHP 7+ executable.
+    "php.executablePath": "C:/PHP/php.exe",
+    // php executable path
+    "phpfmt.php_bin": "C:/PHP/php.exe",
+    "phpfmt.psr1": true,
+    "phpfmt.psr2": false,
+    "git.ignoreMissingGitWarning": true,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Monokai",
+    "sync.gist": ">Sync b44bd9d8d8458df5b894a3de75f80e9c5a170c4e",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "mocha.enabled": false
+}
